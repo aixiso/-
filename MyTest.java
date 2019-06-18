@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class MyTest {
 public static void main(String[] args) {
+	//å®šä¹‰å¸¸æ•° x1-x9
 	double x1=0;
 	double x2=0;
 	double x3=0;
@@ -14,7 +15,7 @@ public static void main(String[] args) {
 	double x8=0;
 	double x9=0;
 	
-	double y=100; //ÅÌÊý
+	double y=100; //ç›˜æ•°
 	
 	
 	for (int x=0;x<y;x++) {
@@ -54,20 +55,20 @@ public static void main(String[] args) {
 	}
 	
 	
-	System.out.println("               ÉÏÆÏ¾©÷»±¦");
+	System.out.println("               æ¾³é—¨çš‡å®¶éª°å®");
 	
-	System.out.println("-----"+"»¶Ó­Í¶×¢"+"-----");
+	System.out.println("-----"+"æ¬¢è¿ŽæŠ•æ³¨"+"-----");
 	
-	System.out.println("ÖÐ½±ºÅÂë:  "+sjs1+"  "+sjs2+"  "+sjs3);
+	System.out.println("ä¸­å¥–å·ç :  "+sjs1+"  "+sjs2+"  "+sjs3);
 	
 	System.out.println("----------------");
 	
-	System.out.println("ºÏ£º"+sum);
+	System.out.println("åˆï¼š"+sum);
 
 	System.out.println("----------------");
 	
 	if(sjs1==sjs2&&sjs1==sjs3) {
-		System.out.println("Î§É«");
+		System.out.println("å›´è‰²");
 		x1++;
 	}else if(sum>=3&&sum<=10) {
 		System.out.println("SMAIL");
@@ -89,16 +90,16 @@ public static void main(String[] args) {
     System.out.println("----------------");
 	System.out.println("----------------");
 	System.out.println("----------------");
-	System.out.println("×ÜÅÌÊý£º"+y);
-	System.out.println("Î§É«ÊýÁ¿£º"+x1+"¸ÅÂÊÎª£º"+x1/y*100+"%");
-	System.out.println("×ÜÊý´ó£º£º"+x3+"¸ÅÂÊÎª£º"+x3/y*100+"%");
-	System.out.println("×ÜÊýÐ¡£º£º"+x2+"¸ÅÂÊÎª£º"+x2/y*100+"%");
-	System.out.println("4/17¸ÅÂÊÎª:"+x4/y*100+"%");
-	System.out.println("5/16¸ÅÂÊÎª:"+x5/y*100+"%");
-	System.out.println("6/15¸ÅÂÊÎª:"+x6/y*100+"%");
-	System.out.println("7/14¸ÅÂÊÎª:"+x7/y*100+"%");
-	System.out.println("8/13¸ÅÂÊÎª:"+x8/y*100+"%");
-	System.out.println("9~12¸ÅÂÊÎª:"+x9/y*100+"%");
+	System.out.println("æ€»ç›˜æ•°ï¼š"+y);
+	System.out.println("å›´è‰²æ•°é‡ï¼š"+x1+"æ¦‚çŽ‡ä¸ºï¼š"+x1/y*100+"%");
+	System.out.println("æ€»æ•°å¤§ï¼šï¼š"+x3+"æ¦‚çŽ‡ä¸ºï¼š"+x3/y*100+"%");
+	System.out.println("æ€»æ•°å°ï¼šï¼š"+x2+"æ¦‚çŽ‡ä¸ºï¼š"+x2/y*100+"%");
+	System.out.println("4/17æ¦‚çŽ‡ä¸º:"+x4/y*100+"%");
+	System.out.println("5/16æ¦‚çŽ‡ä¸º:"+x5/y*100+"%");
+	System.out.println("6/15æ¦‚çŽ‡ä¸º:"+x6/y*100+"%");
+	System.out.println("7/14æ¦‚çŽ‡ä¸º:"+x7/y*100+"%");
+	System.out.println("8/13æ¦‚çŽ‡ä¸º:"+x8/y*100+"%");
+	System.out.println("9~12æ¦‚çŽ‡ä¸º:"+x9/y*100+"%");
 	
 
 	
